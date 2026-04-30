@@ -35,7 +35,28 @@ author: CollectionBuilder
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: metadata
-
+ - field: title
+    label: Title
+  - field: description
+    label: Description
+  - field: category
+    label: Category
+  - field: difficulty
+    label: Difficulty
+  - field: preptime
+    label: Prep Time
+  - field: baketime
+    label: Bake Time
+  - field: totaltime
+    label: Total Time
+  - field: ingredients
+    label: Ingredients
+  - field: equipment
+    label: Equipment
+  - field: reflection
+    label: Reflection
+  - field: rating
+    label: Rating
 ##########
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
