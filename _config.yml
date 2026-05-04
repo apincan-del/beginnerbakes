@@ -22,10 +22,10 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: Beginner Bakes 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: baking with skill
+tagline: Notes from a self-taught baker
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: A digital database for beginner-to-intermediate friendly baking projects, curated by a self-taught baker
+description: This collection brings together a range of baking projects alongside detailed reflections on process, texture, and flavor. It functions as both a recipe archive and a record of developing skill.
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Adelina Pineda Canganelli
 
