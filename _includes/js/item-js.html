@@ -14,9 +14,12 @@ var cb_items = [
 
 /* function to find links to objects from filename field */ 
 function findFileLink(record) {
-    if (!record.filename) {
+    if (!record.file) {
         return "";
     }
+    var fileLink = record.file.includes('/') ? record.file : "{{ '/objects/' | relative_url }}" + record.file;
+    return fileLink;
+}
     var fileLink = record.filename.includes('/') ? record.filename : "{{ '/objects/' | relative_url }}" + record.filename;
     return fileLink;
 }
