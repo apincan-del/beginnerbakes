@@ -381,16 +381,19 @@ function displayItem(record, prev_id, next_id, compound_object) {
                 </div>
             </div>
         `;
-    } else {
-        itemContent = `
-            <div class="card mb-4 text-center">
-                ${itemImage}
-                <div class="card-body">
-                    ${itemLink}
-                </div>
+ } else {
+
+    let itemImage = `<img src="{{ '/objects/' | relative_url }}${item.file}" class="img-fluid mb-3" alt="${item.title}">`;
+
+    itemContent = `
+        <div class="card mb-4 text-center">
+            ${itemImage}
+            <div class="card-body">
+                ${itemLink}
             </div>
-        `;
-    }
+        </div>
+    `;
+}
     document.getElementById("item-content").innerHTML = itemContent;
     
     /* add item metadata */
