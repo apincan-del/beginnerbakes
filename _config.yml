@@ -36,33 +36,31 @@ author: Adelina Pineda Canganelli
 # your CSV filename (without .csv)
 metadata: metadata
 
-# where your images live
 object_location: objects
 
-# what fields show on item pages
-display_fields:
+config-metadata:
   - field: title
-    label: Title
+    display_name: Title
   - field: description
-    label: Description
+    display_name: Description
   - field: baketype
-    label: Bake Type
+    display_name: Bake Type
   - field: difficulty
-    label: Difficulty
+    display_name: Difficulty
   - field: preptime
-    label: Prep Time
+    display_name: Prep Time
   - field: baketime
-    label: Bake Time
+    display_name: Bake Time
   - field: totaltime
-    label: Total Time
+    display_name: Total Time
   - field: ingredients
-    label: Ingredients
+    display_name: Ingredients
   - field: equipment
-    label: Equipment
+    display_name: Equipment
   - field: reflection
-    label: Reflection
+    display_name: Reflection
   - field: rating
-    label: Rating
+    display_name: Rating
 ##########
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
